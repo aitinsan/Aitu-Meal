@@ -8,12 +8,12 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 
-namespace Assigment1.Controllers
+namespace AituMeal.Controllers
 {
     [ApiController]
     [Route("[controller]")]
 
-    public class LessonController : ControllerBase
+    public class MealController : ControllerBase
     {
         private List<Meal> _meal = new List<Meal>()
         {
